@@ -30,6 +30,7 @@ if verLessThan('matlab','7.6')
 end
 
 % add package directories to the matlab path
+addpath(fullfile(root,'ascol'));
 addpath(fullfile(root,'systems'));
 addpath(fullfile(root,'systems','plants'));
 addpath(fullfile(root,'systems','plants','collision'));
